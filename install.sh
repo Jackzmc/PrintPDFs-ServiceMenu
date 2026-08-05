@@ -14,6 +14,7 @@ LOCAL_BIN="$HOME/.local/bin"
 if [ -w "$LOCAL_BIN" ] || mkdir -p "$LOCAL_BIN"; then
     cp print_pdf.sh "$LOCAL_BIN/"
     chmod +x "$LOCAL_BIN/print_pdf.sh"
+    chmod +x "$LOCAL_BIN/print_pdf.sh"
     echo "Script installed in $LOCAL_BIN/"
 else
     sudo cp print_pdf.sh /usr/local/bin/
