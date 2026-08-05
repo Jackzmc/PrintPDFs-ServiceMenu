@@ -10,4 +10,4 @@ X-KDE-Priority=TopLevel
 [Desktop Action printPDF]
 Name=Print PDFs
 Icon=printer
-Exec=/usr/local/bin/print_pdf.sh %F
+Exec=print_pdf.sh %F
